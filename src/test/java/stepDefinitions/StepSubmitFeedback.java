@@ -19,14 +19,9 @@ import pages.ContactPage;
 public class StepSubmitFeedback {
 
     public static WebDriver driver;
-
     public static DataTable errorFieldAndMessage;
-
     public static BasePage basePage = new BasePage(null);
-
     public static ContactPage contactPage = new ContactPage(null);
-
-
 
     @Before
     public void before_tests(){
